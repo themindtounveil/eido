@@ -7,13 +7,13 @@ topBar = Array.from[topBar];
 eidoHome = Array.from[eidoHome];
 
 openNavigationBar.addEventListener("mouseover", event => {
-     topBar.style.z-index = '19';
-     eidoHome.style.z-index = '19';
-     console.log("open");
+     event.topBar.style.z-index = '19';
+     event.eidoHome.style.z-index = '19';
+     event.console.log("open");
 });
 
 closeNavigationBar.addEventListener("mouseover", event => {
-    topBar.style.z-index = '-9';
-    eidoHome.style.z-index = '-9';
-    console.log("closed");
+    event.topBar.style.z-index = '-9';
+    event.eidoHome.style.z-index = '-9';
+    event.console.log("closed");
 });
