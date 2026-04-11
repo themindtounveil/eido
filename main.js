@@ -35,7 +35,7 @@ openBtn.addEventListener("mouseover", () => {
     console.log("open");
 });
 
-closeBtn.addEventListener("mouseover", () => {
+closeBtn.addEventListener("mouseout", () => {
     topBars.forEach(el => el.style.zIndex = '-9');
     eidoHomes.forEach(el => el.style.zIndex = '-9');
     console.log("closed");
