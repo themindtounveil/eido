@@ -19,17 +19,17 @@ closeNavigationBar.addEventListener("mouseover", event => {
 });
 */
 
-// 1. Grab elements (Note: getElementsByClassName returns a collection)
+
 const openBtn = document.querySelector(".openNavigationBar");
 const closeBtn = document.querySelector(".closeNavigationBar");
 
-// 2. Convert collections to Arrays so you can loop through them
+
 const topBars = Array.from(document.getElementsByClassName("topBar"));
 const eidoHomes = Array.from(document.getElementsByClassName("eidoHome"));
 
-// 3. Add the Event Listeners
+
 openBtn.addEventListener("mouseover", () => {
-    // You must loop through arrays to change styles on each element
+
     topBars.forEach(el => el.style.zIndex = '19'); 
     eidoHomes.forEach(el => el.style.zIndex = '19');
     console.log("open");
