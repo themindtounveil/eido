@@ -3,17 +3,19 @@
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 0%;
+    height: 8%;
     background-color: rgb(49, 49, 49);
+    z-index: 0;
 }
 
-.eido-home {
+.eidoHome {
     position: absolute;
     top: 0%;
     left: 5%;
     background-color: rgb(49, 49, 49);
     font-size: 260%;
     color:purple;
+    z-index: 0;
 }
 
 
