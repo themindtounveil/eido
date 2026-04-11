@@ -44,4 +44,9 @@ margin-top: -80px;
 
 .rightext {
     text-align: right;
+    color: green;
+}
+
+.body {
+    background-color: black;
 }
