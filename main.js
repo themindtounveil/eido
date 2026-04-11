@@ -12,7 +12,7 @@ openNavigationBar.addEventListener("mouseover", event => {
 
 closeNavigationBar.addEventListener("mouseover", event => {
     if (size == 0 & size != 8) {
-     topBar.style.z-index= 0;
-     eidoHome.style.z-index= 0;
+     topBar.style.z-index= -9;
+     eidoHome.style.z-index= -9;
     };
 });
