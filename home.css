@@ -47,7 +47,7 @@ margin-top: -80px;
 
 .rightext {
     text-align: right;
-    color: green;
+    color: rgb(255, 255, 255);
 }
 
 .centerText {
@@ -59,7 +59,7 @@ margin-top: -80px;
 }
 
 .body {
-    background-color: black;
+    background-color: rgb(54, 84, 54);
 }
 
 .openNavigationBar {
@@ -76,4 +76,8 @@ margin-top: -80px;
     width: 100%;
     height: 8%;
     z-index: 20; 
+}
+
+.imgdialogue1  {
+    height: ;
 }
