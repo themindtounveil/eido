@@ -1,5 +1,5 @@
 const openNavigationBar = document.getElementsByClassName("openNavigationBar");
-const topBar = document.getElementsByClassName("top-bar");
+const topBar = document.getElementsByClassName("topBar");
 
 
 openNavigationBar.addEventListener("mouseover", event => {
