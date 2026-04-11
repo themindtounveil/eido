@@ -1,4 +1,4 @@
-/*topBar.style.height=size+"%";
+topBar.style.height=size+"%";
 let openNavigationBar = document.getElementsByClassName("openNavigationBar");
 let topBar = document.getElementsByClassName("topBar");
 let closeNavigationBar = document.getElementsByClassName("closeNavigationBar")
@@ -17,9 +17,9 @@ closeNavigationBar.addEventListener("mouseover", event => {
     event.eidoHome.style.z-index = '-9';
     event.console.log("closed");
 });
-*/
 
 
+/*
 const openBtn = document.querySelector(".openNavigationBar");
 const closeBtn = document.querySelector(".closeNavigationBar");
 
@@ -40,3 +40,4 @@ closeBtn.addEventListener("mouseover", () => {
     eidoHomes.forEach(el => el.style.zIndex = '-9');
     console.log("closed");
 });
+*/
