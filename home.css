@@ -51,8 +51,7 @@ margin-top: -80px;
 }
 
 .centerText {
-    position: absolute;
-    top: 80%;
+    margin-top: -50%;
     text-align: center;
     color: rgb(0, 208, 0);
 }
