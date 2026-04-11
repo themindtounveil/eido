@@ -50,3 +50,10 @@ margin-top: -80px;
 .body {
     background-color: black;
 }
+
+.openNavigationBar {
+    top: 0%;
+    width: 100%;
+    height: 6px;
+    background-color: white;
+}
