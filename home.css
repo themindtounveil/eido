@@ -73,11 +73,11 @@ margin-top: -80px;
 
 .closeNavigationBar {
     position: absolute;
-    top: 0%;
+    top: 0.01%;
     width: 100%;
     height: 8%;
     z-index: 20;
-    background-color: transparent;
+    background-color: white;
 }
 
 .imgdialogue1  {
