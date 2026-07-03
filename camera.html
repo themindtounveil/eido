@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webcam Iframe Example</title>
+</head>
+<body>
+
+    <!-- The iframe containing the webcam feed -->
+    <iframe 
+        srcdoc="
+            <video autoplay playsinline id='cam' style='width:100%; height:100%; object-fit:cover;'></video>
+            <script>
+                navigator.mediaDevices.getUserMedia({ video: true, audio: false })
+                    .then(stream => {
+                        const video = document.getElementById('cam');
+                        video.srcObject = stream;
+                    })
+                    .catch(err => console.error('Webcam not accessible:', err));
+            </script>
+        "
+        width="640" 
+        height="480" 
+        allow="camera" 
+        title="Webcam Feed">
+    </iframe>
+
+</body>
+</html>
