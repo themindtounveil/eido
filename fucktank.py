@@ -1,1 +1,1 @@
-app.run(host='0.0.0.0', port=5000) # Access via: http://YOUR_IP:5000
+app.run(host='10.0.0.45', port=5000) # Access via: http://YOUR_IP:5000
